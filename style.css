@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 15px 5px 5px rgba(0, 0, 0, 0.100);
+    padding: 15px 15px;
+}
+
+.top-icon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding: 15px 5px;
+    position: relative;
+}
+
+.top-icon img:nth-child(1) {
+    width: 95%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+
+}
+
+.iconolho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: aqua;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity .60s;
+}
+
+
+.iconolho:hover {
+    opacity: .7;
+}
+
+
+
+.text-card {
+    padding: 10px 25px;
+}
+
+.text-card h1 {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color, 0.60s;
+}
+
+.text-card h1:hover {
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+.text-card p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 25px;
+}
+
+.icon,
+.days {
+    display: flex;
+    align-items: center;
+}
+
+.icon h3 {
+    font-size: 12px;
+    color: aqua;
+    margin-left: 10px;
+}
+
+.days h3 {
+    font-size: 13px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+
+}
+
+.line {
+    border: none;
+    height: 1px;
+    width: 85%;
+    background-color: hsl(215, 32%, 27%);
+    margin: 15px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.avatar h3 {
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: color, .60s;
+}
+
+.avatar h3:hover {
+    color: aqua;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
