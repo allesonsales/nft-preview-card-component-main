@@ -29,10 +29,10 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://allesonsales.github.io/nft-preview-card-component-main/)
+- Live Site URL: [https://allesonsales.github.io/nft-preview-card-component-main/](https://allesonsales.github.io/nft-preview-card-component-main/)
 
 ## Author
 
 - Website - [Alleson Sales](https://www.allesonsales.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/allesonsales)
+- Frontend Mentor - [@allesonsales](https://www.frontendmentor.io/profile/allesonsales)
 
